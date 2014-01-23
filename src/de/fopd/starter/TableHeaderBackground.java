@@ -12,8 +12,8 @@ public class TableHeaderBackground {
     JTable table = new JTable(data, cols);
 
     JTableHeader header = table.getTableHeader();
-    header.setBackground(Color.black);
-    header.setForeground(Color.yellow);
+    header.setBackground(Color.red);
+    header.setForeground(Color.gray);
 
     JOptionPane.showMessageDialog(null, new JScrollPane(table));
   }
